@@ -1,0 +1,16 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#headers {
+	font-family: 'Roboto', sans-serif;
+	padding-left: 1rem;
+}
+
+.users {
+	padding-top: 1rem;
+}
+
+.cap {
+	text-transform: capitalize;
+}

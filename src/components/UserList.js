@@ -4,7 +4,14 @@ import useResources from './useResources';
 const UserList = () => {
 	const users = useResources('users');
 
-	return <ul>{users.map((user) => <li key={user.id}>{user.name}</li>)}</ul>;
+	return (
+		<React.Fragment>
+			<h3 id="headers" className="users">
+				User List
+			</h3>
+			<ul>{users.map((user) => <li key={user.id}>{user.name}</li>)}</ul>
+		</React.Fragment>
+	);
 };
 
 export default UserList;
